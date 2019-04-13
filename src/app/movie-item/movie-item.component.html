@@ -1,0 +1,16 @@
+<mat-card class="movie-card">
+  <mat-card-header>
+    <mat-card-title>{{subject.title}}</mat-card-title>
+    <mat-card-subtitle>{{subject.original_title}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="subject.images.medium" alt="">
+  <mat-card-content>
+    <p>{{subject.year}} {{subject.genres}}</p>
+    <p>分数：{{subject.rating.average}}</p>
+    <p>导演：{{subject.directors | filterName}}</p>
+    <p>演员：{{subject.casts | filterName}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-button href="{{subject.alt}}">查看</a>
+  </mat-card-actions>
+</mat-card>

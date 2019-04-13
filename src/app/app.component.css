@@ -1,0 +1,50 @@
+.main-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.m-l-1 {
+  margin-left: 10px;
+}
+
+.card-box {
+  left: 21px;
+  position: absolute;
+  top: 75px;
+  color: #fff;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  opacity: .7;
+}
+
+.hidden {
+  display: none;
+}
+
+.toolbar-box {
+  height: 70px;
+}
+
+.toolbar-main {
+  z-index: 1;
+  position: fixed;
+}
+
+.toolbar-progress {
+  z-index: 1;
+  position: fixed;
+  top: 64px;
+}
