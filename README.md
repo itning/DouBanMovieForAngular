@@ -14,6 +14,7 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/itning/DouBanMovieForAngular.svg)](https://github.com/itning/DouBanMovieForAngular)
 [![HitCount](http://hits.dwyl.io/itning/DouBanMovieForAngular.svg)](http://hits.dwyl.io/itning/DouBanMovieForAngular)
 [![language](https://img.shields.io/badge/language-TypeScript-green.svg)](https://github.com/itning/DouBanMovieForAngular)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
