@@ -60,7 +60,9 @@ export class AppComponent implements OnInit {
 
   routerTo(inTheaters: string) {
     this.movieNetService.clear(inTheaters);
-    this.cdk.scrollTo({top: 0});
+    if (this.cdk !== undefined) {
+      this.cdk.scrollTo({top: 0});
+    }
     this.router.navigate(['/movie', inTheaters]);
     this.opened = !this.opened;
     this.typeMovie = AppComponent.getDesp(inTheaters);
